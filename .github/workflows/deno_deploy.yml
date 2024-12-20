@@ -31,6 +31,6 @@ jobs:
       - name: Deploy to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: doruan2023-wechat-arti-56
+          project: doruan2023-wechat-arti-70
           entrypoint: server/index.ts
           root: .output
